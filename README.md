@@ -1,6 +1,6 @@
 # NextNano - ZX Spectrum Next implementation for the Tang Nano 20K FPGA board.
 
-> **Status:** Early release — actively developed. Source code release planned.
+> **Status:** Early release — actively developed. Source code released.
 
 📺 **[Watch The Saboteur! NEXT on NextNano in action on YouTube](https://www.youtube.com/watch?v=FlwklhXbSbg)**
 
@@ -37,12 +37,11 @@ The SD card is **required** — NextNano boots into NextZXOS from the card.
 -   Joystick (left port, Kempston)
 -   Mouse (Kempston)
 -   Keyboard
--   HDMI video and audio output
+-   HDMI video and audio output - 50Hz and 60Hz supported
 
 ### Notes & Current Limitations
 
--   The system **boots at 14 MHz**. Switching to **28 MHz via F8 after boot seems stable**.
--   **60 Hz video mode (F3) is not yet supported** — leave the system in the default 50 Hz mode.
+-   The system **boots at 28 MHz**. Switching to other frequency possible (F8).
 -   **Networking is not yet implemented**. Network features will require an external BL616 (**M0S Dock**), because the BL616 built into the Tang Nano 20K has no antenna.
 
 ## Software Compatibility
@@ -66,25 +65,21 @@ All software tested so far runs flawlessly — including demoscene productions, 
 | Key  | Function                                            |
 |------|-----------------------------------------------------|
 | F1   | Hard reset                                          |
-| F3   | Toggle 50 / 60 Hz video mode (60 Hz not yet supported) |
+| F3   | Toggle 50 / 60 Hz video mode  |
 | F4   | Soft reset                                          |
 | F8   | Cycle CPU clock: 3.5 / 7 / 14 / 28 MHz              |
 | F9   | NMI / Multiface                                     |
 | F10  | DivMMC NMI                                          |
 
 
-## Installation
+## Release v0.2 — Source Code Release
 
-### Release v0.1 — First Release
+### Building from source 
+To build the project, use Gowin EDA 1.9.12.03 and the provided tcl script, `nextNano.tcl`. The build has been tested only on Linux using `gw_sh`. From the source directory, run:
 
-This is the first official release of the project. It includes:
-
--   **`NextNano.fs`** — the FPGA bitstream, ready to be flashed onto the Tang Nano 20K.
--   **Two variants of the FPGA Companion firmware:**
-    -   **`fpga_companion_TN20k_internal.bin`** — for the BL616 microcontroller built into Tang Nano 20K boards.
-    -   **`fpga_companion_bl616_m0s_dock.bin`** — for an external M0S Dock.
--   **`bl616_fpga_partner_nano20k.bin`** — BL616 bootloader (required when using the onboard BL616).
-
+```
+gw_sh nextNano.tcl
+```
 
 ### Flashing the FPGA Bitstream
 
@@ -92,7 +87,6 @@ This is the first official release of the project. It includes:
 
 ```bash
 openFPGALoader -f NextNano.fs
-
 ```
 
 The `-f` flag writes the bitstream to the onboard flash so it persists across power cycles. Without `-f`, the bitstream is loaded into SRAM and will be lost on power-off.
@@ -114,22 +108,6 @@ The onboard BL616 setup requires **both** files to be flashed at their respectiv
 
 ----------
 
-## Troubleshooting
-
-**Black screen / no boot after power-on** Make sure the SD card is formatted as FAT32 and contains the extracted NextZXOS distribution at the root. The card must be inserted _before_ applying power.
-
-**Monitor reports "No signal"** Some older or unusual HDMI displays may not handle the output mode correctly. Try a different display or HDMI cable. NextNano outputs 50 Hz by default — modern TVs and monitors usually accept this, but some PC monitors do not.
-
-**Bitstream disappears after power-off** You programmed the FPGA in SRAM mode instead of Flash. With `openFPGALoader`, include the `-f` flag. With Gowin Programmer, select _Embedded Flash Mode → Erase, Program_ (not _SRAM Mode_).
-
-**Keyboard, mouse, or joystick not responding** The USB hub likely cannot supply enough current. Use an **active (powered) USB-C hub**. Also confirm that the FPGA Companion firmware has been flashed correctly to the BL616.
-
-**System hangs or behaves erratically after pressing F8** The CPU clock cycles through 3.5 / 7 / 14 / 28 MHz. If a specific program is sensitive to one of these speeds, press F8 again to advance to the next speed, or press F4 (soft reset) to restart at 14 MHz.
-
-**SD card not detected** The card must be formatted as **FAT32**. exFAT and NTFS are not supported. Use a different card or reformat if necessary.
-
-----------
-
 ## Acknowledgments
 
 NextNano stands on the shoulders of these projects:
@@ -142,4 +120,4 @@ NextNano stands on the shoulders of these projects:
 
 This project is not affiliated with, endorsed by, or associated with the official ZX Spectrum Next project or SpecNext Ltd.
 
-Source code will be released in a future update.
+
