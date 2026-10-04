@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180">
+<rect x="0" y="0" width="1600" height="1180" rx="0" fill="#f8fafc" stroke="#f8fafc" stroke-width="0"/>
+<rect x="38" y="28" width="1524" height="88" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="68" y="78" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="bold" fill="#0f172a" text-anchor="start">NextNano — Matrix Keyboard, Joystick &amp; Buttons</text>
+<text x="68" y="104" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="normal" fill="#64748b" text-anchor="start">Tang Nano 20K · board shown from the top</text>
+<rect x="38" y="132" width="1524" height="58" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+<text x="62" y="168" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#9a3412" text-anchor="start">Pin numbers are FPGA I/O numbers. 3.3 V I/O only — do not apply 5 V.</text>
+<rect x="230" y="245" width="480" height="610" rx="34" fill="#1f2937" stroke="#0f172a" stroke-width="3"/>
+<rect x="374" y="220" width="190" height="52" rx="10" fill="#d1d5db" stroke="#64748b" stroke-width="2"/>
+<text x="469" y="210" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" fill="#64748b" text-anchor="middle">USB-C</text>
+<rect x="355" y="834" width="230" height="44" rx="8" fill="#d1d5db" stroke="#64748b" stroke-width="2"/>
+<text x="470" y="898" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" fill="#64748b" text-anchor="middle">HDMI</text>
+<rect x="365" y="340" width="210" height="135" rx="8" fill="#111827" stroke="#64748b" stroke-width="2"/>
+<text x="470" y="418" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="bold" fill="#e5e7eb" text-anchor="middle">GW2AR-18</text>
+<rect x="398" y="520" width="145" height="90" rx="8" fill="#111827" stroke="#64748b" stroke-width="2"/>
+<text x="470" y="574" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#e5e7eb" text-anchor="middle">BL616</text>
+<text x="470" y="716" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" fill="#e5e7eb" text-anchor="middle">TANG NANO 20K</text>
+<text x="470" y="744" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#94a3b8" text-anchor="middle">TOP VIEW</text>
+<circle cx="230" cy="286.0" r="8" fill="#d97706" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="292.0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#d97706" text-anchor="end">73  D0</text>
+<circle cx="710" cy="286.0" r="8" fill="#dc2626" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="292.0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">5V</text>
+<circle cx="230" cy="313.1" r="8" fill="#d97706" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="319.1" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#d97706" text-anchor="end">74  D1</text>
+<circle cx="710" cy="313.1" r="8" fill="#111827" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="319.1" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">GND</text>
+<circle cx="230" cy="340.2" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="346.2" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="end">75</text>
+<circle cx="710" cy="340.2" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="346.2" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">76</text>
+<circle cx="230" cy="367.3" r="8" fill="#d97706" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="373.3" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#d97706" text-anchor="end">85  D3</text>
+<circle cx="710" cy="367.3" r="8" fill="#d97706" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="373.3" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#d97706" text-anchor="start">80  D2</text>
+<circle cx="230" cy="394.4" r="8" fill="#d97706" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="400.4" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#d97706" text-anchor="end">77  D4</text>
+<circle cx="710" cy="394.4" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="400.4" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">42</text>
+<circle cx="230" cy="421.5" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="427.5" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">15  A11</text>
+<circle cx="710" cy="421.5" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="427.5" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">41</text>
+<circle cx="230" cy="448.6" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="454.6" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">16  A10</text>
+<circle cx="710" cy="448.6" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="454.6" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">56</text>
+<circle cx="230" cy="475.70000000000005" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="481.70000000000005" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">27  A9</text>
+<circle cx="710" cy="475.70000000000005" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="481.70000000000005" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">54</text>
+<circle cx="230" cy="502.8" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="508.8" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">28  A12</text>
+<circle cx="710" cy="502.8" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="508.8" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">51</text>
+<circle cx="230" cy="529.9" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="535.9" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">25  A13</text>
+<circle cx="710" cy="529.9" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="535.9" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">48</text>
+<circle cx="230" cy="557.0" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="563.0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">26  A8</text>
+<circle cx="710" cy="557.0" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="563.0" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">55</text>
+<circle cx="230" cy="584.1" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="590.1" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">29  A14</text>
+<circle cx="710" cy="584.1" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="590.1" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">49</text>
+<circle cx="230" cy="611.2" r="8" fill="#0f766e" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="617.2" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#0f766e" text-anchor="end">30  A15</text>
+<circle cx="710" cy="611.2" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="617.2" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">86</text>
+<circle cx="230" cy="638.3" r="8" fill="#2563eb" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="644.3" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#2563eb" text-anchor="end">31  DOWN</text>
+<circle cx="710" cy="638.3" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="644.3" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">79</text>
+<circle cx="230" cy="665.4000000000001" r="8" fill="#2563eb" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="671.4000000000001" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#2563eb" text-anchor="end">17  FIRE</text>
+<circle cx="710" cy="665.4000000000001" r="8" fill="#111827" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="671.4000000000001" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">GND</text>
+<circle cx="230" cy="692.5" r="8" fill="#2563eb" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="698.5" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#2563eb" text-anchor="end">20  LEFT</text>
+<circle cx="710" cy="692.5" r="8" fill="#dc2626" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="698.5" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">3V3</text>
+<circle cx="230" cy="719.6" r="8" fill="#2563eb" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="725.6" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#2563eb" text-anchor="end">19  UP</text>
+<circle cx="710" cy="719.6" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="725.6" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">72</text>
+<circle cx="230" cy="746.7" r="8" fill="#2563eb" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="752.7" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#2563eb" text-anchor="end">18  RIGHT</text>
+<circle cx="710" cy="746.7" r="8" fill="#cbd5e1" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="752.7" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="start">71</text>
+<circle cx="230" cy="773.8" r="8" fill="#dc2626" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="779.8" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="end">3V3</text>
+<circle cx="710" cy="773.8" r="8" fill="#7c3aed" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="779.8" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#7c3aed" text-anchor="start">53  NMI</text>
+<circle cx="230" cy="800.9" r="8" fill="#111827" stroke="#f8fafc" stroke-width="2"/>
+<text x="206" y="806.9" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#94a3b8" text-anchor="end">GND</text>
+<circle cx="710" cy="800.9" r="8" fill="#7c3aed" stroke="#f8fafc" stroke-width="2"/>
+<text x="734" y="806.9" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" fill="#7c3aed" text-anchor="start">52  RESET</text>
+<rect x="820" y="245" width="742" height="790" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+<text x="848" y="292" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="bold" fill="#0f172a" text-anchor="start">ZX Spectrum matrix keyboard</text>
+<text x="848" y="324" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="normal" fill="#64748b" text-anchor="start">Connect all 13 signal wires.</text>
+<rect x="850" y="350" width="300" height="320" rx="14" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+<text x="872" y="390" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="bold" fill="#d97706" text-anchor="start">5-line connection</text>
+<text x="872" y="418" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" fill="#64748b" text-anchor="start">D0–D4</text>
+<text x="878" y="465" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#d97706" text-anchor="start">D0</text>
+<text x="1122" y="465" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 73</text>
+<text x="878" y="504" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#d97706" text-anchor="start">D1</text>
+<text x="1122" y="504" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 74</text>
+<text x="878" y="543" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#d97706" text-anchor="start">D2</text>
+<text x="1122" y="543" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 80</text>
+<text x="878" y="582" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#d97706" text-anchor="start">D3</text>
+<text x="1122" y="582" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 85</text>
+<text x="878" y="621" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#d97706" text-anchor="start">D4</text>
+<text x="1122" y="621" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 77</text>
+<rect x="1180" y="350" width="350" height="400" rx="14" fill="#f0fdfa" stroke="#14b8a6" stroke-width="2"/>
+<text x="1202" y="390" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="bold" fill="#0f766e" text-anchor="start">8-line connection</text>
+<text x="1202" y="418" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" fill="#64748b" text-anchor="start">A8–A15</text>
+<text x="1208" y="462" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A8</text>
+<text x="1502" y="462" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 26</text>
+<text x="1208" y="498" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A9</text>
+<text x="1502" y="498" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 27</text>
+<text x="1208" y="534" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A10</text>
+<text x="1502" y="534" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 16</text>
+<text x="1208" y="570" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A11</text>
+<text x="1502" y="570" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 15</text>
+<text x="1208" y="606" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A12</text>
+<text x="1502" y="606" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 28</text>
+<text x="1208" y="642" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A13</text>
+<text x="1502" y="642" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 25</text>
+<text x="1208" y="678" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A14</text>
+<text x="1502" y="678" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 29</text>
+<text x="1208" y="714" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#0f766e" text-anchor="start">A15</text>
+<text x="1502" y="714" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 30</text>
+<rect x="850" y="780" width="430" height="220" rx="14" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+<text x="872" y="820" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="bold" fill="#2563eb" text-anchor="start">Direct joystick</text>
+<text x="878" y="852" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#2563eb" text-anchor="start">Up</text>
+<text x="1252" y="852" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 19</text>
+<text x="878" y="879" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#2563eb" text-anchor="start">Down</text>
+<text x="1252" y="879" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 31</text>
+<text x="878" y="906" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#2563eb" text-anchor="start">Left</text>
+<text x="1252" y="906" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 20</text>
+<text x="878" y="933" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#2563eb" text-anchor="start">Right</text>
+<text x="1252" y="933" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 18</text>
+<text x="878" y="960" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#2563eb" text-anchor="start">Fire</text>
+<text x="1252" y="960" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">FPGA pin 17</text>
+<text x="878" y="990" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#111827" text-anchor="start">Common</text>
+<text x="1252" y="990" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">Board GND</text>
+<rect x="1310" y="780" width="220" height="220" rx="14" fill="#f5f3ff" stroke="#a78bfa" stroke-width="2"/>
+<text x="1332" y="820" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="bold" fill="#7c3aed" text-anchor="start">Buttons</text>
+<text x="1338" y="868" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#7c3aed" text-anchor="start">NMI</text>
+<text x="1502" y="868" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">Pin 53</text>
+<text x="1338" y="908" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#7c3aed" text-anchor="start">Reset</text>
+<text x="1502" y="908" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">Pin 52</text>
+<text x="1338" y="960" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#111827" text-anchor="start">Common</text>
+<text x="1502" y="960" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="bold" fill="#334155" text-anchor="end">GND</text>
+<text x="850" y="1022" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" fill="#475569" text-anchor="start">Joystick, NMI and Reset: use normally open switches between each input and GND.</text>
+<rect x="38" y="1090" width="1524" height="60" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<circle cx="70" cy="1120" r="7" fill="#0f766e" stroke="#0f766e" stroke-width="1"/>
+<text x="88" y="1126" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#334155" text-anchor="start">A8–A15</text>
+<circle cx="220" cy="1120" r="7" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="238" y="1126" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#334155" text-anchor="start">D0–D4</text>
+<circle cx="370" cy="1120" r="7" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="388" y="1126" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#334155" text-anchor="start">Joystick</text>
+<circle cx="520" cy="1120" r="7" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+<text x="538" y="1126" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#334155" text-anchor="start">NMI / Reset</text>
+<text x="1540" y="1126" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="normal" fill="#64748b" text-anchor="end">USB-C top · HDMI bottom</text>
+</svg>
